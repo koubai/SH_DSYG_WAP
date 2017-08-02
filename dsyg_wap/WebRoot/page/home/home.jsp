@@ -10,33 +10,27 @@
 <meta name="author" content="javascript:" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/common.css" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css" />
-<title>东升盈港-手机版</title>
+<title>东升盈港-首页</title>
 <script type="text/javascript">
 </script>
 </head>
 <body>
 <div id="app">
-	<jsp:include page="../head.jsp" flush="true" />
+	<jsp:include page="../head_top.jsp" flush="true" />
 	<div class="g-body">
 		<div class="m-index">
 			<div class="g-wrap g-body-bd">
 				<div class="m-index-mod m-index-popular m-index-goodsList" id="m-index-popular">
 					<div class="m-index-mod-bd">
-						<div class="m-logo"><a href="#"></a></div>
-						<div class="award-wrapper">
-							<span><s:text name="shdsyg"/></span>
-						</div>
-						<div class="award-wrapper">
-							<span><s:text name="sz_dsyg_comp"/></span>
-						</div>
+						<jsp:include page="../head.jsp" flush="true" />
 						<div class="award-wrapper">
 							<table style="width: 100%;">
 								<tr>
 									<td width="33.3%" align="center">
-										<a class="index_btn"><s:text name="home"/></a>
+										<a class="index_btn" href="./home.shtml"><s:text name="home"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn"><s:text name="titletechnicalinfo"/></a>
+										<a class="index_btn" href="./showInformation.shtml"><s:text name="titletechnicalinfo"/></a>
 									</td>
 									<td width="33.3%" align="center">
 										<a class="index_btn"><s:text name="titlecompanyinfo"/></a>
