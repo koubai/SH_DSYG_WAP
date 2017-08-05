@@ -11,6 +11,11 @@
 	color: #877575;
 	z-index: 888;
 }
+
+.w-navBar a{
+	color: white;
+}
+
 .w-navBar-item.selected {
 	color: #db3652;
 }

@@ -10,7 +10,7 @@
 <meta name="author" content="javascript:" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/common.css" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css" />
-<title>东升盈港-首页</title>
+<title><s:text name="dsyg"/>-<s:text name="home"/></title>
 <script type="text/javascript">
 </script>
 </head>

@@ -12,7 +12,7 @@
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/common.css" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css" />
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-1.5.1.js"></script>
-<title>东升盈港-公司信息</title>
+<title><s:text name="dsyg"/>-<s:text name="companyinfo"/></title>
 <script type="text/javascript">
 function showCompanyDiv(id) {
 	for(var i = 1; i <= 8; i++) {

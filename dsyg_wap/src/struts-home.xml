@@ -6,6 +6,10 @@
 
 	<package name="home" extends="struts-language" namespace="/home">
 	
+		<action name="showConcatUsAction" class="homeAction" method="showConcatUsAction">
+			<result name="success">/page/home/concatus.jsp</result>
+		</action>
+		
 		<action name="showCompanyRecruitAction" class="homeAction" method="showCompanyRecruitAction">
 			<result name="success">/page/home/companyrecruit.jsp</result>
 		</action>

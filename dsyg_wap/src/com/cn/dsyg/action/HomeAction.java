@@ -99,6 +99,19 @@ public class HomeAction extends BaseAction {
 	private RecruitDto recruitDetail;
 	
 	/**
+	 * 联系我们
+	 * @return
+	 */
+	public String showConcatUsAction() {
+		try {
+			this.clearMessages();
+		} catch(Exception e) {
+			log.error("showConcatUsAction error:" + e);
+		}
+		return SUCCESS;
+	}
+	
+	/**
 	 * 招聘信息列表
 	 * @return
 	 */

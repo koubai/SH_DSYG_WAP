@@ -10,6 +10,11 @@
 	</rule>
 	
 	<rule>
+		<from>^/concatus.shtml$</from>
+		<to>/home/showConcatUsAction.action</to>
+	</rule>
+	
+	<rule>
 		<from>^/rand.shtml$</from>
 		<to>/index/rand.action</to>
 	</rule>
@@ -2235,6 +2240,11 @@
 	<outbound-rule>
 		<from>/index/rand.action$</from>
 		<to>/rand.shtml</to>
+	</outbound-rule>
+	
+	<outbound-rule>
+		<from>/home/showConcatUsAction.action$</from>
+		<to>/concatus.shtml</to>
 	</outbound-rule>
 	
 	<outbound-rule>

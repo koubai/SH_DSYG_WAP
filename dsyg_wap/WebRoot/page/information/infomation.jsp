@@ -12,7 +12,7 @@
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/common.css" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css" />
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-1.5.1.js"></script>
-<title>东升盈港-产品简介</title>
+<title><s:text name="dsyg"/>-<s:text name="tchenicalinfo"/></title>
 <script type="text/javascript">
 function showProduct(id) {
 	for(var i = 1; i <= 8; i++) {
