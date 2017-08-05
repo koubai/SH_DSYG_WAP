@@ -45,3 +45,36 @@
 	width:90%; display:block; height:55px; background:url(../images/btn.png) no-repeat; opcacity:1;
 	text-align:center; padding:5px 0; color:#ffffff; font-size:16px; cursor:pointer; font-family:"微软雅黑";
 }
+
+.cap_tab1{ background:#e5e5e5; border-bottom:1px solid #c6c6c6; width:160px; line-height:40px; padding-left:40px;}
+.cap_tab2{ background:#f4f4f4; border-bottom:1px solid #d3d3d3; width:430px; line-height:40px; padding-left:20px; color:#474747;}
+.cap_tab11{ background:; border-bottom:1px solid #c6c6c6; width:160px; line-height:40px; padding-left:40px;}
+.cap_tab22{ background:; border-bottom:1px solid #d3d3d3; width:430px; line-height:40px; padding-left:20px; color:#474747;}
+.cap_tab3{ width:10px;}
+
+.wire_content{margin-bottom:40px;}
+.tabletit{ margin:10px 0px 10px 0px; font-size:24px; color:#000; margin-top:40px;}
+
+.history dl{width:620px;padding:0px 0px;}
+.history dl dt{width:620px;height:30px;line-height:30px;font-size:22px;color:#e60012; font-weight: normal; cursor:pointer; padding:10px 0px; padding-top:20px;/*border-bottom:1px solid #dbdbdb;*/ position:relative;background:url(/Public/Images/new/do.jpg) no-repeat 577px 29px;}
+.history dl dt .zs{width:33px;height:13px;cursor:pointer;position: absolute; display:block;right:10px; top:29px;background:url(/Public/Images/new/up.jpg) no-repeat center;}
+
+.history dl dd{width:620px;display:none;padding-bottom:20px;/*border-bottom:1px solid #dbdbdb;*/}
+.history dl dd a{width:605px;line-height:23px;font-size:12px;color:#545454;padding-left:15px;display:block;background:url(/Public/Images/new/b.jpg) no-repeat left center; text-decoration:none;}
+.history dl dd a:hover{color:#989898;}
+.alt-row {background: #e3e3e3;}
+.history table tr td{ height:33px; line-height:33px; text-align:left;}
+.history table{ width:100%;}
+
+.news_details{ width:730px; float:left;margin:20px 0px 0px 40px;}
+.news_details ul{ margin-top:60px; width:620px; color:#666;list-style:none;}
+.news_details li{ background:url(../images/sorrow.jpg) no-repeat left center; padding-left:20px; margin-bottom:30px; font-size:15px;}
+.news_details .news_distance{ margin-left:20px;}
+.news_details .news_distance a{ color:#666; text-decoration:none;}
+.news_details .news_distance a:hover{ color:#666; text-decoration:underline;}
+.news_details .news_span{ padding-right:5px; width:25px; height:11px; display:inline-block;}
+.news_details .span_width{ width:85px; display:inline-block;}
+.news_details .news_tit{ font-size:26px;}
+.news_details .newscontent{color:#666; font-size:13px; margin-top:40px; }
+.news_details .newscontent img{ padding-right:50px; padding-bottom:50px; float:left;}
+.news_details .newscontent p{padding-bottom:25px; line-height:22px;}

@@ -33,18 +33,18 @@
 										<a class="index_btn" href="./showInformation.shtml"><s:text name="titletechnicalinfo"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn"><s:text name="titlecompanyinfo"/></a>
+										<a class="index_btn" href="./companyinfo.shtml"><s:text name="titlecompanyinfo"/></a>
 									</td>
 								</tr>
 								<tr>
 									<td width="33.3%" align="center">
-										<a class="index_btn"><s:text name="titlecompanynews"/></a>
+										<a class="index_btn" href="./companynews.shtml"><s:text name="titlecompanynews"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn"><s:text name="qainfo"/></a>
+										<a class="index_btn" href="./qa.shtml"><s:text name="qainfo"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn"><s:text name="casestudy"/></a>
+										<a class="index_btn" href="./case_p01.shtml"><s:text name="casestudy"/></a>
 									</td>
 								</tr>
 								<tr>
