@@ -118,7 +118,7 @@ function showCompanyDiv(id) {
 											<s:text name="contactcompany"/>									</td>
 										<td class="cap_tab3">
 											<br>									</td>
-										<td class="cap_tab2"><s:text name="tell"/>：021－65388038－0（<s:text name="switchboard"/>）<br /><s:text name="fax"/>：021－65387551</td>
+										<td class="cap_tab2"><s:text name="tell"/>：<a href="tel:021－65388038">021－65388038－0</a>（<s:text name="switchboard"/>）<br /><s:text name="fax"/>：<a href="tel:021－65387551">021－65387551</a></td>
 									</tr>
 									<tr>
 										<td class="cap_tab1">
@@ -169,7 +169,7 @@ function showCompanyDiv(id) {
 											<s:text name="contact"/>									</td>
 										<td class="cap_tab3">
 											<br>									</td>
-										<td class="cap_tab2"><s:text name="tell"/>：021－65388038－0（<s:text name="switchboard"/>）<br /><s:text name="fax"/>：021－65387551</td>
+										<td class="cap_tab2"><s:text name="tell"/>：<a href="tel:021－65388038">021－65388038－0</a>（<s:text name="switchboard"/>）<br /><s:text name="fax"/>：<a href="tel:021－65387551">021－65387551</a></td>
 									</tr>
 									<tr>
 										<td class="cap_tab1">
@@ -220,7 +220,7 @@ function showCompanyDiv(id) {
 											<s:text name="contact"/>									</td>
 										<td class="cap_tab3">
 											<br>									</td>
-										<td class="cap_tab2"><s:text name="tell"/>：0755－23319126－0（<s:text name="switchboard"/>）<br /><s:text name="fax"/>：0755－61524200</td>
+										<td class="cap_tab2"><s:text name="tell"/>：<a href="tel:0755－23319126">0755－23319126－0</a>（<s:text name="switchboard"/>）<br /><s:text name="fax"/>：<a href="tel:0755－61524200">0755－61524200</a></td>
 									</tr>
 									<tr>
 										<td class="cap_tab1">
@@ -417,8 +417,8 @@ function showCompanyDiv(id) {
 											<s:text name="contactcompany"/>									</td>
 										<td class="cap_tab3">
 											<br>									</td>
-										<td class="cap_tab2"><s:text name="tell"/>：021－65388038－0（<s:text name="switchboard"/>）<br />
-	<s:text name="fax"/>：021－65387551</td>
+										<td class="cap_tab2"><s:text name="tell"/>：<a href="tel:021－65388038">021－65388038－0</a>（<s:text name="switchboard"/>）<br />
+	<s:text name="fax"/>：<a href="tel:021－65387551">021－65387551</a></td>
 									</tr>
 									<tr>
 										<td class="cap_tab1">
@@ -449,8 +449,8 @@ function showCompanyDiv(id) {
 											<s:text name="contact"/>								</td>
 										<td class="cap_tab3">
 											<br>									</td>
-										<td class="cap_tab2"><s:text name="tell"/>：021－65388038－0（<s:text name="switchboard"/>）<br />
-	<s:text name="fax"/>：021－65387551</td>
+										<td class="cap_tab2"><s:text name="tell"/>：<a href="tel:021－65388038">021－65388038－0</a>（<s:text name="switchboard"/>）<br />
+	<s:text name="fax"/>：<a href="tel:021－65387551">021－65387551</a></td>
 									</tr>
 									<tr>
 										<td class="cap_tab1">
@@ -481,8 +481,8 @@ function showCompanyDiv(id) {
 											<s:text name="contact"/>								</td>
 										<td class="cap_tab3">
 											<br>									</td>
-										<td class="cap_tab2"><s:text name="tell"/>：0755－23319126－0（<s:text name="switchboard"/>）<br />
-	<s:text name="fax"/>：0755－61524200</td>
+										<td class="cap_tab2"><s:text name="tell"/>：<a href="tel:0755－23319126">0755－23319126－0</a>（<s:text name="switchboard"/>）<br />
+	<s:text name="fax"/>：<a href="tel:0755－61524200">0755－61524200</a></td>
 									</tr>
 									<tr>
 										<td class="cap_tab1">
@@ -505,7 +505,7 @@ function showCompanyDiv(id) {
 													<s:iterator id="homeRecruitList" value="homeRecruitList" status="st1">
 														<li>
 															<span class="news_span"></span>
-																<a target="_blank" href="<c:url value="/home/showRecruitDetailAction.action"><c:param name="recruitDetailId" value="${id}"></c:param></c:url>"><s:property value="title"/></a>
+																<a target="_parent" href="<c:url value="/home/showRecruitDetailAction.action"><c:param name="recruitDetailId" value="${id}"></c:param></c:url>"><s:property value="title"/></a>
 															</span>
 														</li>
 													</s:iterator>

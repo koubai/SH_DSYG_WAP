@@ -428,6 +428,7 @@ public class HomeAction extends BaseAction {
 	public String showCompanyInfoAction() {
 		try {
 			this.clearMessages();
+			homeRecruitList = recruitService.queryAllRecruit();
 		} catch(Exception e) {
 			log.error("showCompanyInfoAction error:" + e);
 		}

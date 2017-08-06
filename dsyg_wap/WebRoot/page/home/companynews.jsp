@@ -60,7 +60,7 @@
 															<span class="span_width"><s:property value="newsdate"/></span>
 															<span class="news_distance">
 																<span class="news_span"></span>
-																<a target="_blank" href="<c:url value="/home/showNewsDetailAction.action"><c:param name="newsDetailId" value="${id}"></c:param></c:url>">
+																<a target="_parent" href="<c:url value="/home/showNewsDetailAction.action"><c:param name="newsDetailId" value="${id}"></c:param></c:url>">
 																	<s:if test='#session.language == "en" && entitle != ""'>
 																		<s:property value="entitle"/>
 																	</s:if>

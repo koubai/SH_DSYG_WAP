@@ -99,7 +99,7 @@ function showProduct(id) {
 													<s:iterator id="homeCaseList" value="homeCaseList" status="st1">
 														<li>
 															<span class="news_span"></span>
-																<a target="_blank" href="<c:url value="/home/showHomeCaseDetailAction.action"><c:param name="caseDetailId" value="${id}"></c:param></c:url>"><s:property value="title"/></a>
+																<a target="_parent" href="<c:url value="/home/showHomeCaseDetailAction.action"><c:param name="caseDetailId" value="${id}"></c:param></c:url>"><s:property value="title"/></a>
 															</span>
 														</li>
 													</s:iterator>

@@ -6,6 +6,6 @@
 </script>
 <ul class="w-navBar">
 	<li class="w-navBar-item" data-tab="电话咨询"><i class="w-navBar-ico"></i><s:text name="counseling"/></li>
-	<li class="w-navBar-item" data-tab="东升产品"><i class="w-navBar-ico"></i><s:text name="dsyg_product"/></li>
+	<li class="w-navBar-item" data-tab="东升产品"><i class="w-navBar-ico"></i><a href="./home.shtml"><s:text name="dsyg_product"/></a></li>
 	<li class="w-navBar-item" data-tab="联系我们"><i class="w-navBar-ico"></i><a href="./concatus.shtml"><s:text name="concatus"/></a></li>
 </ul>

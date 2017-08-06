@@ -76,7 +76,7 @@
 									<tr>
 										<td>
 											<span><s:property value="newsdate"/></span>
-											<a target="_blank" href="newsdetail_id<s:property value="id"/>.shtml">
+											<a target="_parent" href="newsdetail_id<s:property value="id"/>.shtml">
 												<s:if test='#session.language == "en" && entitle != ""'>
 													<s:property value="entitle"/>
 												</s:if>
