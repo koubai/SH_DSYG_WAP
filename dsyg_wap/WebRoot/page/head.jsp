@@ -4,10 +4,11 @@
 <link rel='stylesheet' href='<%=request.getContextPath()%>/css/head.css' />
 <script type="text/javascript">
 </script>
-<div class="m-logo"><a href="./home.shtml"></a></div>
-<div class="award-wrapper">
+<br/><div class="m-logo"><a href="./home.shtml"></a></div>
+<br/>
+<div class="award-wrapper2">
 	<span><s:text name="shdsyg"/></span>
 </div>
-<div class="award-wrapper">
+<div class="award-wrapper2">
 	<span><s:text name="sz_dsyg_comp"/></span>
 </div>

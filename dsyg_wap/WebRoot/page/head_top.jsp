@@ -3,7 +3,7 @@
 <link rel='stylesheet' href='<%=request.getContextPath()%>/css/head.css' />
 <script type="text/javascript">
 </script>
-<div class="g-header" id="g-header" style="display: none;">
+<div class="g-header" id="g-header" style="display: none; padding: 10px 0;" >
 	<div class="w-headerBar m-index-header">
 		<h1>东升盈港</h1>
 	</div>

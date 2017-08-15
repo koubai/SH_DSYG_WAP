@@ -40,10 +40,20 @@
 	padding: 5px 10px;
 	background: #fff;
 }
+.award-wrapper2 {
+	padding: 5px 10px;
+	height:30px;
+	background: #fff;
+}
 
 .index_btn{
 	width:90%; display:block; height:55px; background:url(../images/btn.png) no-repeat; opcacity:1;
 	text-align:center; padding:5px 0; color:#ffffff; font-size:16px; cursor:pointer; font-family:"微软雅黑";
+}
+
+.index_btn1{
+	width:90%; display:block; height:55px; background:url(../images/btn.png) no-repeat; opcacity:1;
+	text-align:center; padding:5px 0; color:#ffffff; font-size:20px; cursor:pointer; font-family:"微软雅黑";
 }
 
 .cap_tab1{ background:#e5e5e5; border-bottom:1px solid #c6c6c6; width:160px; line-height:40px; padding-left:40px;}

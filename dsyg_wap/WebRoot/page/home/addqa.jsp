@@ -102,7 +102,7 @@ function checkData() {
 										</td>
 									</tr>
 									<tr>
-										<td>
+										<td><br />
 											<p style="font-size: 13px;"><s:text name="qatip"/></p>
 											<br />
 										</td>
@@ -165,14 +165,13 @@ function checkData() {
 															<s:textfield name="addQaDto.email" id="email" maxlength="64" theme="simple"></s:textfield>
 														</td>
 													</tr>
+												</table>
+												<table class="input_table" border="0" cellspacing="0" cellpadding="10">
 													<tr>
-														<td></td>
+														<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
 														<td>
 															<input class="btn btn-blue" name="" type="button" onclick="add();" value="<s:text name="submit"/>" />						
 														</td>
-													</tr>
-													<tr>
-														<td height="80" colspan="2">　</td>
 													</tr>
 												</table>
 											</s:form>

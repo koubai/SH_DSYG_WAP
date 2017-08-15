@@ -27,39 +27,39 @@
 							<table style="width: 100%;">
 								<tr>
 									<td width="33.3%" align="center">
-										<a class="index_btn" href="./home.shtml"><s:text name="home"/></a>
+										<a class="index_btn1" href="./home.shtml"><s:text name="home"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn" href="./showInformation.shtml"><s:text name="titletechnicalinfo"/></a>
+										<a class="index_btn1" href="./showInformation.shtml"><s:text name="titletechnicalinfo"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn" href="./companyinfo.shtml"><s:text name="titlecompanyinfo"/></a>
+										<a class="index_btn1" href="./companyinfo.shtml"><s:text name="titlecompanyinfo"/></a>
 									</td>
 								</tr>
 								<tr>
 									<td width="33.3%" align="center">
-										<a class="index_btn" href="./companynews.shtml"><s:text name="titlecompanynews"/></a>
+										<a class="index_btn1" href="./companynews.shtml"><s:text name="titlecompanynews"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn" href="./qa.shtml"><s:text name="qainfo"/></a>
+										<a class="index_btn1" href="./qa.shtml"><s:text name="qainfo"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn" href="./case_p01.shtml"><s:text name="casestudy"/></a>
-									</td>
-								</tr>
-								<tr>
-									<td colspan="3">
-										<a class="frame" href="#"><img style="width: 100%;" src="<%=request.getContextPath()%>/images/1.jpg" /></a>
+										<a class="index_btn1" href="./case_p01.shtml"><s:text name="casestudy"/></a>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="3">
-										<a class="frame" href="#"><img style="width: 100%;" src="<%=request.getContextPath()%>/images/2.jpg" /></a>
+										<a class="frame" href="#"><img style="width: 100%;" src="<%=request.getContextPath()%>/images/1.jpg" /></a><br/>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="3">
-										<a class="frame" href="#"><img style="width: 100%;" src="<%=request.getContextPath()%>/images/5.jpg" /></a>
+										<a class="frame" href="#"><img style="width: 100%;" src="<%=request.getContextPath()%>/images/2.jpg" /></a><br/>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3">
+										<a class="frame" href="#"><img style="width: 100%;" src="<%=request.getContextPath()%>/images/5.jpg" /></a><br/>
 									</td>
 								</tr>
 							</table>
@@ -68,8 +68,8 @@
 							<table style="width: 100%; margin-bottom: 80px;">
 								<tr>
 									<td>
-										<h3><s:text name="companynews"/></h3>
-										<h3>News</h3>
+										<h2><s:text name="companynews"/></h2>
+										<h2>News</h2>
 									</td>
 								</tr>
 								<s:iterator id="homeNewsList" value="homeNewsList" status="st">
