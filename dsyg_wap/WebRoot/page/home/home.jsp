@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -8,6 +8,7 @@
 <meta name="keywords" content="东升盈港" />
 <meta name="description" content="东升盈港" />
 <meta name="author" content="javascript:" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width"/>
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/common.css" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css" />
 <title><s:text name="dsyg"/>-<s:text name="home"/></title>
@@ -27,24 +28,24 @@
 							<table style="width: 100%;">
 								<tr>
 									<td width="33.3%" align="center">
-										<a class="index_btn1" href="./home.shtml"><s:text name="home"/></a>
+										<a class="index_btn18" href="./home.shtml"><s:text name="home"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn1" href="./showInformation.shtml"><s:text name="titletechnicalinfo"/></a>
+										<a class="index_btn18" href="./showInformation.shtml"><s:text name="titletechnicalinfo"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn1" href="./companyinfo.shtml"><s:text name="titlecompanyinfo"/></a>
+										<a class="index_btn18" href="./companyinfo.shtml"><s:text name="titlecompanyinfo"/></a>
 									</td>
 								</tr>
 								<tr>
 									<td width="33.3%" align="center">
-										<a class="index_btn1" href="./companynews.shtml"><s:text name="titlecompanynews"/></a>
+										<a class="index_btn18" href="./companynews.shtml"><s:text name="titlecompanynews"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn1" href="./qa.shtml"><s:text name="qainfo"/></a>
+										<a class="index_btn18" href="./qa.shtml"><s:text name="qainfo"/></a>
 									</td>
 									<td width="33.3%" align="center">
-										<a class="index_btn1" href="./case_p01.shtml"><s:text name="casestudy"/></a>
+										<a class="index_btn18" href="./case_p01.shtml"><s:text name="casestudy"/></a>
 									</td>
 								</tr>
 								<tr>

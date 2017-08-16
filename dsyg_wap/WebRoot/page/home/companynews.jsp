@@ -9,6 +9,7 @@
 <meta name="keywords" content="东升盈港" />
 <meta name="description" content="东升盈港" />
 <meta name="author" content="javascript:" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width"/>
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/common.css" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css" />
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-1.5.1.js"></script>

@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <%@ taglib prefix="c" uri="/WEB-INF/c.tld" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -9,6 +9,7 @@
 <meta name="keywords" content="东升盈港" />
 <meta name="description" content="东升盈港" />
 <meta name="author" content="javascript:" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width"/>
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/common.css" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css" />
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-1.5.1.js"></script>
@@ -38,7 +39,7 @@
 									<tr>
 										<td>
 											<a href="#">
-												<img width="620" src="<%=request.getContextPath()%><s:if test='#session.language == "en"'>/images_en/</s:if><s:else>/images/</s:else>banner7.png" />
+												<img style="width: 100%;" src="<%=request.getContextPath()%><s:if test='#session.language == "en"'>/images_en/</s:if><s:else>/images/</s:else>banner7.png" />
 											</a>
 										</td>
 									</tr>

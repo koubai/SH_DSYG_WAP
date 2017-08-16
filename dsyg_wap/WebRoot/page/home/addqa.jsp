@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <%@ taglib prefix="c" uri="/WEB-INF/c.tld" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -9,6 +9,7 @@
 <meta name="keywords" content="东升盈港" />
 <meta name="description" content="东升盈港" />
 <meta name="author" content="javascript:" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width"/>
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/common.css" />
 <link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css" />
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-1.5.1.js"></script>
@@ -98,11 +99,12 @@ function checkData() {
 								<tbody>
 									<tr>
 										<td>
-											<img src="<%=request.getContextPath()%><s:if test='#session.language == "en"'>/images_en/</s:if><s:else>/images/</s:else>banner9.png" width="620">
+											<img src="<%=request.getContextPath()%><s:if test='#session.language == "en"'>/images_en/</s:if><s:else>/images/</s:else>banner9.png" style="width:100%;">
 										</td>
 									</tr>
 									<tr>
-										<td><br />
+										<td>
+											<br />
 											<p style="font-size: 13px;"><s:text name="qatip"/></p>
 											<br />
 										</td>
@@ -116,7 +118,7 @@ function checkData() {
 														<td class="td_tittle"><span>*</span><s:text name="title"/>：</td>
 														<td>
 															<!--<s:textfield name="addQaDto.title" id="title" maxlength="64" theme="simple"></s:textfield>-->
-															<select name="addQaDto.title" id="title" style="width:300px;">
+															<select name="addQaDto.title" id="title" style="width:230px;">
 																<option value="<s:text name="qaproductconsulting"/>"><s:text name="qaproductconsulting"/></option>
 																<option value="<s:text name="priceapply"/>"><s:text name="priceapply"/></option>
 																<option value="<s:text name="other"/>"><s:text name="other"/></option>
@@ -126,7 +128,7 @@ function checkData() {
 													<tr>
 														<td class="td_tittle"><span>*</span><s:text name="content"/>：</td>
 														<td>
-															<textarea rows="8" cols="40" style="width:300px;" id="tempData"><s:property value="addQaDto.data"/></textarea>
+															<textarea rows="8" style="width:230px;" id="tempData"><s:property value="addQaDto.data"/></textarea>
 														</td>
 													</tr>
 													<tr>
@@ -166,12 +168,15 @@ function checkData() {
 														</td>
 													</tr>
 												</table>
-												<table class="input_table" border="0" cellspacing="0" cellpadding="10">
+												<table border="0" style="width: 100%;" cellspacing="0" cellpadding="10">
 													<tr>
-														<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+														<td style="width:40%; height:50px;"></td>
 														<td>
 															<input class="btn btn-blue" name="" type="button" onclick="add();" value="<s:text name="submit"/>" />						
 														</td>
+													</tr>
+													<tr>
+														<td colspan="2" height="80">　</td>
 													</tr>
 												</table>
 											</s:form>
