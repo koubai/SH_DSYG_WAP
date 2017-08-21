@@ -99,8 +99,8 @@
 .history table tr td{ height:33px; line-height:33px; text-align:left;}
 .history table{ width:100%;}
 
-.news_details{ width:100%; float:left;margin:20px 0px 0px 40px;}
-.news_details ul{ margin-top:60px; width:620px; color:#666;list-style:none;}
+.news_details{ width:100%; float:left; margin-top: 20px;}
+.news_details ul{ margin-top:60px; width:100%; color:#666;list-style:none;}
 .news_details li{ background:url(../images/sorrow.jpg) no-repeat left center; padding-left:20px; margin-bottom:30px; font-size:15px;}
 .news_details .news_distance{ margin-left:20px;}
 .news_details .news_distance a{ color:#666; text-decoration:none;}
